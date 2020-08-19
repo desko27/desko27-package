@@ -1,0 +1,27 @@
+{
+  "name": "desko27",
+  "version": "1.0.0",
+  "description": "Personal package of desko27 dev",
+  "bin": {
+    "desko27": "./bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desko27/desko27-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desko27/desko27-package/issues"
+  },
+  "homepage": "https://github.com/desko27/desko27-package#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
