@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-console.log('Hello there! I\'m desko27 :)')
+require('@babel/register')({
+  presets: [['@babel/preset-env'], ['@babel/preset-react']]
+})
+require('../src/app')
