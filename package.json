@@ -30,6 +30,8 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
     "blessed": "^0.1.81",
+    "chalk": "^4.1.0",
+    "open": "^7.2.0",
     "react": "^16.13.1",
     "react-blessed": "^0.6.2"
   }
