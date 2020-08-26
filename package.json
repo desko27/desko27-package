@@ -1,6 +1,6 @@
 {
   "name": "desko27",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Personal package of desko27 dev",
   "bin": {
     "desko27": "node dist/index.js"
