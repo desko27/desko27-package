@@ -3,13 +3,13 @@
   "version": "1.1.2",
   "description": "Personal package of desko27 dev",
   "bin": {
-    "desko27": "node dist/index.js"
+    "desko27": "node bin/index.js"
   },
-  "main": "dist/index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node bin/index.js",
     "dev": "npm run build && npm run start",
-    "build": "parcel build src/index.js --target node",
+    "build": "parcel build src/index.js --dist-dir bin",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/desko27/desko27-package#readme",
   "devDependencies": {
-    "parcel": "^1.12.4",
+    "parcel": "^2.0.0-beta.1",
     "standard": "^14.3.4"
   },
   "dependencies": {
